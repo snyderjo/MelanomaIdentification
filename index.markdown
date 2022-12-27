@@ -1,5 +1,4 @@
 
-# Melanoma Identification
 In the early 2020's, I worked with a surgeon at [Intermountain Healthcare](https://intermountainhealthcare.org/) to develop a curriculum for non-dermatologists to identify malignant melanoma lesions in collaboration with a professor from BYU.  My role in the project was origially limited to stripping metadata from images sourced by Intermountain Healthcare, and sharing them via SFTP.
 
 This project was supplemental and complementarty to that project.
@@ -29,12 +28,24 @@ Urban-rural distribution of specialists futher exacerbate the issue in a large w
 General practitioners or family physicians could use an appropriately trained convolutional neural network to refer patients to dermatologists expiditiously.  GP's and family doctors are unfortunately the target of most high-level initiatives--they are the doctors most likely to receive missives from... most everyone.
 
 > "See more patients in the same number of hours!"
+
 > "Encourage high-risk patients to get screenings."
+
 > etc.
 
-This is designed to provide a means of identifying patients for referral to specialists, i.e. dermatologists.
+This is designed to provide a means of identifying patients with high-risk lesions and referring them to dermatologists promptly.
 
 ### Data
 This project is designed to accept an in image of a skin lesion, i.e. a mole, and return a probability of that lesion being malignant.
 The data was sourced from [kaggle](https://www.kaggle.com/competitions/siim-isic-melanoma-classification/overview).
 Computing resources were provided by [Google Colab](https://colab.research.google.com/).
+
+### The Model
+
+[link](https://snyderjo.github.io/documents/Kaggle_Melanoma_CNN.html)
+
+I made use of EfficientNetB0 for the purposes of transfer learning, trained the model, and briefly explored fine-tuning.  There's some evidence of the model effectiveness, but the heavy imbalance creates issues in evaluation.
+
+
+## Conclusion
+There is some promise to the approach, but I expect any further work will be dictated by the necessities of the work.
