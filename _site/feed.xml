@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/MelnomaIdentification/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/MelnomaIdentification/" rel="alternate" type="text/html" /><updated>2023-07-29T19:05:14-06:00</updated><id>http://localhost:4000/MelnomaIdentification/feed.xml</id><title type="html">John M. Snyder</title><subtitle>Data professional with years of experience, and diverse interests.</subtitle><author><name>John Snyder</name></author><entry><title type="html">Fully Connected Neural Networks presentation</title><link href="http://localhost:4000/MelnomaIdentification/2023/01/04/FNN-meetup.html" rel="alternate" type="text/html" title="Fully Connected Neural Networks presentation" /><published>2023-01-04T00:00:00-07:00</published><updated>2023-01-04T00:00:00-07:00</updated><id>http://localhost:4000/MelnomaIdentification/2023/01/04/FNN-meetup</id><content type="html" xml:base="http://localhost:4000/MelnomaIdentification/2023/01/04/FNN-meetup.html"><![CDATA[<p>I presented on the topic of <a href="https://www.meetup.com/slcpython/events/ptpwwsyfccbgb/">fully-connected neural networks</a> at the <a href="https://www.meetup.com/slcpython/">SLC Python</a> meetup!</p>
-
-<p>I presented the information in this <a href="https://github.com/snyderjo/intro_to_nn_presentation">github repo</a>.</p>
-
-<p>Video forthcoming!</p>
-
-<p>Thanks for organizing, Faris!</p>
-
-<p>Thanks for hosting, U of U!</p>]]></content><author><name>John Snyder</name></author><summary type="html"><![CDATA[I presented on the topic of fully-connected neural networks at the SLC Python meetup!]]></summary></entry></feed>
