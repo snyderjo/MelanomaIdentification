@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    Melanoma Identification - John M. Snyder
+    
+  </title>
+
+  <meta name="description" content="Data professional with years of experience, and diverse interests.">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="/MelnomaIdentification/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/MelnomaIdentification/">
+  <link rel="alternate" type="application/rss+xml" title="John M. Snyder" href="/MelnomaIdentification/feed.xml">
+
+</head>
+
+
+<body>
+
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/MelnomaIdentification/">John M. Snyder</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/MelnomaIdentification/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/MelnomaIdentification/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/MelnomaIdentification/projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/MelnomaIdentification/posts">Posts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/MelnomaIdentification/contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Page Header -->
+
+<header class="masthead" style="background-image: url('/MelnomaIdentification')">
+  
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>Melanoma Identification</h1>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <p>In the early 2020’s, I worked with a surgeon at <a href="https://intermountainhealthcare.org/">Intermountain Healthcare</a> to develop a curriculum for non-dermatologists to identify malignant melanoma lesions in collaboration with a professor from BYU.  My role in the project was origially limited to stripping metadata from images sourced by Intermountain Healthcare, and sharing them via SFTP.</p>
+
+<p>This project was supplemental and complementarty to that project.</p>
+
+<h2 id="the-issue">The Issue</h2>
+<p>Utah has the highest rate of skin cancer in the country [citation needed].
+Melanoma, when caught early, is no big deal; however, <a href="https://www.aad.org/media/stats-skin-cancer#:~:text=The%20five%2Dyear%20survival%20rate,the%20lymph%20nodes%20is%2099%25.&amp;text=The%20five%2Dyear%20survival%20rate%20for%20melanoma%20that%20spreads%20to,and%20other%20organs%20is%2030%25.">if the disease progresses or spreads, the prognosis is notably worse</a>.
+Consequently, prompt screenings are vital for the timely</p>
+
+<h2 id="motivation">Motivation</h2>
+<p>Who is best prepared to diagnose whether a given skin lesion is malignant?
+<em>Dermatologists</em></p>
+
+<h4 id="anecdote">Anecdote</h4>
+<p>Several years ago, I looked for a derm appointment at a nearby clinic, only to learn that all the dermatologists were not accepting new patients.  I inquired at the next closest clinic, and schduled an appointment two months later.</p>
+
+<p><strong><em>Dermatologists are in low supply and high demand.</em></strong></p>
+
+<p>These circumstances do not lend themselves to prompt screening of potentially malignant lesions.</p>
+
+<h2 id="structural-issues">Structural Issues</h2>
+<p>There are entirely too many barriers to increasing the supply of physicians, much less dermatologists.</p>
+
+<p>Urban-rural distribution of specialists futher exacerbate the issue in a large western state such as Utah.</p>
+
+<h2 id="potential-solution">Potential Solution</h2>
+<p>General practitioners or family physicians could use an appropriately trained convolutional neural network to refer patients to dermatologists expiditiously.  GP’s and family doctors are unfortunately the target of most high-level initiatives–they are the doctors most likely to receive missives from… most everyone.</p>
+
+<blockquote>
+  <p>“See more patients in the same number of hours!”</p>
+</blockquote>
+
+<blockquote>
+  <p>“Encourage high-risk patients to get screenings.”</p>
+</blockquote>
+
+<blockquote>
+  <p>etc.</p>
+</blockquote>
+
+<p>This is designed to provide a means of identifying patients with high-risk lesions and referring them to dermatologists promptly.</p>
+
+<h3 id="data">Data</h3>
+<p>This project is designed to accept an in image of a skin lesion, i.e. a mole, and return a probability of that lesion being malignant.
+The data was sourced from <a href="https://www.kaggle.com/competitions/siim-isic-melanoma-classification/overview">kaggle</a>.
+Computing resources were provided by <a href="https://colab.research.google.com/">Google Colab</a>.</p>
+
+<h3 id="the-model">The Model</h3>
+
+<p><a href="https://snyderjo.github.io/documents/Kaggle_Melanoma_CNN.html">link</a></p>
+
+<p>I made use of EfficientNetB0 for the purposes of transfer learning, trained the model, and briefly explored fine-tuning.  There’s some evidence of the model effectiveness, but the heavy imbalance creates issues in evaluation.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>There is some promise to the approach, but I expect any further work will be dictated by the necessities of the work.</p>
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          <li class="list-inline-item">
+            <a href="mailto:snyderjo@gmail.com">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/john-snyder-ab18a034">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://github.com/snyderjo">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy; John Snyder 2023</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/MelnomaIdentification/assets/vendor/startbootstrap-clean-blog/js/scripts.js"></script>
+
+<script src="/MelnomaIdentification/assets/scripts.js"></script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '');
+</script>
+
+
+
+</body>
+
+</html>
