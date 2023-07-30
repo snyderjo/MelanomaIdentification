@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Melanoma Identification"
-background: ""
+background: "/img/lesions.png"
 ---
 
 In the early 2020's, I worked with a surgeon at [Intermountain Healthcare](https://intermountainhealthcare.org/) to develop a curriculum for non-dermatologists to identify malignant melanoma lesions in collaboration with a professor from BYU.  My role in the project was origially limited to stripping metadata from images sourced by Intermountain Healthcare, and sharing them via SFTP.
