@@ -66,5 +66,48 @@ If you examine the images, you'll notice that:
 
 If one wants to pass any random photo of a skin lesion, and have it evaluated accurately, a [YOLO algorithm](https://en.wikipedia.org/wiki/YOLO_(algorithm)) could help ameliorate the first issue.  Similarly, [anomaly detection](https://en.wikipedia.org/wiki/Anomaly_detection) might be able to help identify photos with poor lighting.  What about non-caucasian skin?--I don't have a good answer short of futher data collection.
 
+
+## Tools I used
+
+<table style="padding:30px;font-size:16px;">
+<tr>
+    <td align="center">
+        <div>
+            <img src="img/lesions.png" alt="1" height="120px" width="120px">
+        </div>
+    </td>
+    <td  align="center">
+        <div>
+            <img src="img/lesions.png" alt="2" height="120px" width="120px">
+        </div>
+    </td>
+    <td  align="center">
+        <div>
+            <img src="img/lesions.png" alt="3" height="120px" width="120px">
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <div>
+            <p style="text-align:center">tensorflow.</p>
+        </div>
+    </td>
+    <td >
+        <div>
+            <p style="text-align:center">google colabs</p>
+        </div>
+    </td>
+    <td >
+        <div>
+            <p style="text-align:center">kaggle? matplotlib?</a>.</p>
+        </div>
+    </td>
+</tr>
+</table>
+
+<br>
+
+
 ## Conclusion
 There is some promise to the approach, but I expect any further work will be dictated by the necessities of the work.
