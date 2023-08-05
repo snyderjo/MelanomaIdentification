@@ -4,25 +4,27 @@ title: "Melanoma Identification"
 background: "/img/lesions.png"
 ---
 
-In the early 2020's, I worked with a surgeon at [Intermountain Healthcare](https://intermountainhealthcare.org/) to develop a curriculum for non-dermatologists to identify malignant melanoma lesions in collaboration with a professor from BYU.  My role in the project was origially limited to stripping metadata from images sourced by Intermountain Healthcare, and sharing them via SFTP.
-
-This project was supplemental and complementarty to that project.
 
 ## The Issue
-Utah has the highest rate of skin cancer in the country [citation needed].
-Melanoma, when caught early, is no big deal; however, [if the disease progresses or spreads, the prognosis is notably worse](https://www.aad.org/media/stats-skin-cancer#:~:text=The%20five%2Dyear%20survival%20rate,the%20lymph%20nodes%20is%2099%25.&text=The%20five%2Dyear%20survival%20rate%20for%20melanoma%20that%20spreads%20to,and%20other%20organs%20is%2030%25.).
-Consequently, prompt screenings are vital for the timely
 
-## Motivation
-Who is best prepared to diagnose whether a given skin lesion is malignant?
-*Dermatologists*
+1. Utah has the highest rate of skin cancer in the country [citation needed].
+2. If it's caugt early, melanoma, is no big deal; however, [if the disease progresses or spreads, the prognosis is notably worse](https://www.aad.org/media/stats-skin-cancer#:~:text=The%20five%2Dyear%20survival%20rate,the%20lymph%20nodes%20is%2099%25.&text=The%20five%2Dyear%20survival%20rate%20for%20melanoma%20that%20spreads%20to,and%20other%20organs%20is%2030%25.).  Consequently, prompt screenings are vital for the timely.
+3.  Who is well positioned to identify melanoma?  Dermatologists.
+
+The problem being, getting a derm appointment is an everloving pain.
 
 #### Anecdote
-Several years ago, I looked for a derm appointment at a nearby clinic, only to learn that all the dermatologists were not accepting new patients.  I inquired at the next closest clinic, and schduled an appointment two months later.
+Several years ago, I looked for a derm appointment at a nearby clinic, only to learn that none of the dermatologists were accepting new patients.  I inquired at the next closest clinic, and schduled an appointment for *two months later*.
 
 ***Dermatologists are in low supply and high demand.***
 
 These circumstances do not lend themselves to prompt screening of potentially malignant lesions.
+
+## Background
+
+In the early 2020's, I worked with a surgeon at [Intermountain Healthcare](https://intermountainhealthcare.org/) to develop a curriculum for non-dermatologists to identify malignant melanoma lesions in collaboration with a professor from BYU.  My role in the project was origially limited to stripping metadata from images sourced by Intermountain Healthcare, and sharing them via SFTP.
+
+This project was supplemental and complementarty to that project.
 
 ## Structural Issues
 There are entirely too many barriers to increasing the supply of physicians, much less dermatologists.
@@ -38,7 +40,7 @@ General practitioners or family physicians could use an appropriately trained co
 
 > etc.
 
-This is designed to provide a means of identifying patients with high-risk lesions and referring them to dermatologists promptly.
+This is designed to provide a means of identifying patients with high-risk lesions and potentially referring them to dermatologists promptly.
 
 ### Data
 This project is designed to accept an in image of a skin lesion, i.e. a mole, and return a probability of that lesion being malignant.
@@ -51,6 +53,18 @@ Computing resources were provided by [Google Colab](https://colab.research.googl
 
 I made use of EfficientNetB0 for the purposes of transfer learning, trained the model, and briefly explored fine-tuning.  There's some evidence of the model effectiveness, but the heavy imbalance creates issues in evaluation.
 
+
+### Is this all?
+
+That is to say, is the project complete?
+No.
+
+If you examine the images, you'll notice that:
+* the images are remarkably well centered,
+* most are well-lit, and
+* most are on caucasian skin
+
+If one wants to pass any random photo of a skin lesion, and have it evaluated accurately, a [YOLO algorithm](https://en.wikipedia.org/wiki/YOLO_(algorithm)) could help ameliorate the first issue.  Similarly, [anomaly detection](https://en.wikipedia.org/wiki/Anomaly_detection) might be able to help identify photos with poor lighting.  What about non-caucasian skin?--I don't have a good answer short of futher data collection.
 
 ## Conclusion
 There is some promise to the approach, but I expect any further work will be dictated by the necessities of the work.
