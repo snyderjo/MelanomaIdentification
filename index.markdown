@@ -7,13 +7,13 @@ background: "/img/lesions.png"
 
 ## The Issue
 
-1. Utah has the highest rate of skin cancer in the country [citation needed].
+1. Utah has the highest rate of skin cancer in the country [[citation](https://www.axios.com/local/salt-lake-city/2023/07/05/utah-skin-cancer-rate-ranks-highest-cdc)].
 2. If it's caugt early, melanoma, is no big deal; however, [if the disease progresses or spreads, the prognosis is notably worse](https://www.aad.org/media/stats-skin-cancer#:~:text=The%20five%2Dyear%20survival%20rate,the%20lymph%20nodes%20is%2099%25.&text=The%20five%2Dyear%20survival%20rate%20for%20melanoma%20that%20spreads%20to,and%20other%20organs%20is%2030%25.).  Consequently, prompt screenings are vital for the timely.
 3.  Who is well positioned to identify melanoma?  Dermatologists.
 
 The problem being, getting a derm appointment is an everloving pain.
 
-#### Anecdote
+##### My own Anecdote
 Several years ago, I looked for a derm appointment at a nearby clinic, only to learn that none of the dermatologists were accepting new patients.  I inquired at the next closest clinic, and schduled an appointment for *two months later*.
 
 ***Dermatologists are in low supply and high demand.***
@@ -73,34 +73,34 @@ If one wants to pass any random photo of a skin lesion, and have it evaluated ac
 <tr>
     <td align="center">
         <div>
-            <img src="img/lesions.png" alt="1" height="120px" width="120px">
+            <a href="https://www.tensorflow.org/"><img src="img/icons/tensorflow-icon.svg" alt="1" height="140px" width="140px"></a>
         </div>
     </td>
     <td  align="center">
         <div>
-            <img src="img/lesions.png" alt="2" height="120px" width="120px">
+            <a href="https://colab.research.google.com/"><img src="img/icons/icons8-google-colab-144.svg" alt="2" height="140px" width="140px"></a>
         </div>
     </td>
     <td  align="center">
         <div>
-            <img src="img/lesions.png" alt="3" height="120px" width="120px">
+            <a href="https://www.kaggle.com/"><img src="img/icons/4373210_kaggle_logo_logos_icon.svg" alt="3" height="140px" width="140px"></a>
         </div>
     </td>
 </tr>
 <tr>
     <td>
         <div>
-            <p style="text-align:center">tensorflow.</p>
+            <p style="text-align:center">Tensorflow is one of the preeminent packages for estimating neural networks, making GPU acceleration terribly easy.</p>
         </div>
     </td>
     <td >
         <div>
-            <p style="text-align:center">google colabs</p>
+            <p style="text-align:center">I estimated the model in Google Colabs.  It provides easy access to cloud-based notebooks, and provides temporary access to GPU's</p>
         </div>
     </td>
     <td >
         <div>
-            <p style="text-align:center">kaggle.</p>
+            <p style="text-align:center">If you're looking to get started in machine learning, Kaggle is a good place to start.  I made use of the data it makes publicly available.</p>
         </div>
     </td>
 </tr>
