@@ -100,7 +100,7 @@ If one wants to pass any random photo of a skin lesion, and have it evaluated ac
     </td>
     <td >
         <div>
-            <p style="text-align:center">kaggle? matplotlib?</a>.</p>
+            <p style="text-align:center">kaggle.</p>
         </div>
     </td>
 </tr>
