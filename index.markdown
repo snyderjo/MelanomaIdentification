@@ -8,17 +8,17 @@ background: "/img/lesions.png"
 ## The Issue
 
 1. Utah has the highest rate of skin cancer in the country [[citation](https://www.axios.com/local/salt-lake-city/2023/07/05/utah-skin-cancer-rate-ranks-highest-cdc)].
-2. If it's caugt early, melanoma, is no big deal; however, [if the disease progresses or spreads, the prognosis is notably worse](https://www.aad.org/media/stats-skin-cancer#:~:text=The%20five%2Dyear%20survival%20rate,the%20lymph%20nodes%20is%2099%25.&text=The%20five%2Dyear%20survival%20rate%20for%20melanoma%20that%20spreads%20to,and%20other%20organs%20is%2030%25.).  Consequently, prompt screenings are vital for the timely.
+2. If it's caught early, melanoma, is no big deal; however, [if the disease progresses or spreads, the prognosis is notably worse](https://www.aad.org/media/stats-skin-cancer#:~:text=The%20five%2Dyear%20survival%20rate,the%20lymph%20nodes%20is%2099%25.&text=The%20five%2Dyear%20survival%20rate%20for%20melanoma%20that%20spreads%20to,and%20other%20organs%20is%2030%25.).  Consequently, prompt screenings are vital for effective treatment--it's cheaper and one can avoid chemotherapy.
 3.  Who is well positioned to identify melanoma?  Dermatologists.
 
-The problem being, getting a derm appointment is an everloving pain.
+The problem being: getting a derm appointment is an everloving pain.
 
-##### My own Anecdote
-Several years ago, I looked for a derm appointment at a nearby clinic, only to learn that none of the dermatologists were accepting new patients.  I inquired at the next closest clinic, and schduled an appointment for *two months later*.
+##### Anecdote
+Several years ago, I looked for a derm appointment at my neighborhood clinic, only to learn that none of the dermatologists were accepting new patients.  I inquired at the next closest clinic, and schduled an appointment for *two months later*.
 
 ***Dermatologists are in low supply and high demand.***
 
-These circumstances do not lend themselves to prompt screening of potentially malignant lesions.
+It's easy to imagine how patients could be discouraged by such wait times, not to mention issues of distance
 
 ## Background
 
