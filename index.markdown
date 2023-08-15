@@ -18,13 +18,13 @@ Several years ago, I looked for a derm appointment at my neighborhood clinic, on
 
 ***Dermatologists are in low supply and high demand.***
 
-It's easy to imagine how patients could be discouraged by such wait times, not to mention issues of distance
+It's easy to imagine how patients could be discouraged by such wait times, not to mention issues of distance; potentially leading to substantial delays in care for undiagnosed melanomas.
 
 ## Background
 
 In the early 2020's, I worked with a surgeon at [Intermountain Healthcare](https://intermountainhealthcare.org/) to develop a curriculum for non-dermatologists to identify malignant melanoma lesions in collaboration with a professor from BYU.  My role in the project was origially limited to stripping metadata from images sourced by Intermountain Healthcare, and sharing them via SFTP.
 
-This project was supplemental and complementarty to that project.
+This project was supplemental and complementary to that project.
 
 ## Structural Issues
 There are entirely too many barriers to increasing the supply of physicians, much less dermatologists.
@@ -95,7 +95,7 @@ If one wants to pass any random photo of a skin lesion, and have it evaluated ac
     </td>
     <td >
         <div>
-            <p style="text-align:center">I estimated the model in Google Colabs.  It provides easy access to cloud-based notebooks, and provides temporary access to GPU's</p>
+            <p style="text-align:center">I estimated the model in Google Colabs.  It provides easy access to cloud-based notebooks, and provides temporary free access to GPU's</p>
         </div>
     </td>
     <td >
